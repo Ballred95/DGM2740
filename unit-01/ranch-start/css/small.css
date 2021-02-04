@@ -11,7 +11,7 @@ body {
 
 /* header rules here */
 header {
-    background-color: #17a8e4;
+    background-color: #D36135;
     padding: 1rem 2%;
 }
 
@@ -25,14 +25,14 @@ margin: 0;
 
 /* nav rules here */
 nav {
-    background-color: #111;
+    background-color: #7FB069;
     
 }
 nav li {list-style-type: none;
         padding: .8rem;
 }
 
-nav li.active { background-color: #333;
+nav li.active { background-color: #D36135;
 
 }
 
@@ -43,14 +43,14 @@ nav ul {
 
 nav a {
     display: block;
-    padding: .8rem, 0;
+    padding: .8rem 0;
     color: #eee;
     text-align: center;
     text-decoration: none;
 }
 
 nav li:hover {
-    background-color: #444;
+    background-color: #E6AA68;
 }
 
 /* main rules here */
@@ -73,11 +73,11 @@ main figcaption {
 }
 
 main h1 {
-    color: #17a8e4;
+    color: #D36135;
 }
 
 footer {text-align: center;
     
     padding: 1rem 2%;
-    background-color: #17a8e4;
+    background-color: #D36135;
 }

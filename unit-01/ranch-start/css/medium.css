@@ -20,6 +20,10 @@ div.news {
     column-rule: 1px solid #ddd;
 }
 
+figcaption {
+    margin-bottom: .8rem;
+}
+
 
 
 } 
