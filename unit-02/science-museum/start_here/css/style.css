@@ -504,6 +504,11 @@ nav a {
   text-decoration: none;
 }
 
+nav li {
+  width: 25%;
+  float: left;
+}
+
 nav a:hover {
   background-color: #444;
 }
