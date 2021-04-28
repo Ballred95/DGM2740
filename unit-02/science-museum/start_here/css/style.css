@@ -479,6 +479,10 @@ header .company-title h2 {
   visibility: hidden;
 }
 
+.hero img {
+  width: 100%;
+}
+
 nav {
   background-color: #111;
 }
@@ -582,7 +586,7 @@ footer {
 
 /* end of media query */
 @media only screen and (min-width: 1028px) and (min-width: 1028px) {
-  header, .centered, main, footer {
+  header, .centered, .hero, main, footer {
     max-width: 1200px;
     margin: auto;
   }
