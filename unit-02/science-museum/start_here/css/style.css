@@ -476,6 +476,7 @@ header .company-title h2 {
   margin: 0;
   font-size: 1.2rem;
   font-weight: normal;
+  visibility: hidden;
 }
 
 nav {
@@ -554,6 +555,12 @@ footer {
     width: 25%;
     float: left;
   }
+  h2 {
+    margin: 0;
+    font-size: 1.2rem;
+    font-weight: normal;
+    visibility: visible !important;
+  }
   main figure {
     float: right;
     width: 48%;
@@ -578,6 +585,12 @@ footer {
   header, .centered, main, footer {
     max-width: 1200px;
     margin: auto;
+  }
+  h2 {
+    margin: 0;
+    font-size: 1.2rem;
+    font-weight: normal;
+    visibility: visible;
   }
   nav ul {
     padding-left: 0%;

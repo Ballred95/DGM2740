@@ -1,7 +1,14 @@
 @media only screen and (min-width: 560px) {
     nav li {width: 25%; float: left;}
     
-   
+    h2{
+                
+        margin: 0; 
+        font-size: 1.2rem; 
+        font-weight: normal;
+        visibility: visible !important;
+
+        }
 
     main figure {
         float: right; 
