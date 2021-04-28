@@ -455,16 +455,24 @@ body {
 }
 
 header {
-  background-color: #17a8e4;
+  background-color: slategray;
   padding: 1rem 2%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
-header h1 {
+header .company-title {
+  -ms-flex-item-align: end;
+      align-self: flex-end;
+}
+
+header .company-title h1 {
   margin: 0;
   font-size: 1.5rem;
 }
 
-header h2 {
+header .company-title h2 {
   margin: 0;
   font-size: 1.2rem;
   font-weight: normal;
