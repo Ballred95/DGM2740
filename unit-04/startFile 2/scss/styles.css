@@ -360,9 +360,15 @@ body {
 }
 
 /*----------- HEADER --------------*/
+.header-wrapper {
+  background-image: url(../images/header-small.jpg);
+  height: 140px;
+}
+
 header {
   padding: .5rem 2%;
-  background-color: #ddd;
+  color: white;
+  text-shadow: -1px -1px 0 #000,   1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 }
 
 header h1 {
@@ -375,7 +381,7 @@ header h2 {
 }
 
 /*----------- NAVIGATION --------------*/
-nav {
+.nav-wrapper {
   background-color: #666;
 }
 
@@ -416,14 +422,105 @@ nav ul li.active a {
 }
 
 /*----------- MAIN --------------*/
+.main-wrapper {
+  background-color: red;
+}
+
+.main-wrapper .card-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.main-wrapper .card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 300px;
+  height: auto;
+  -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.main-wrapper .card a {
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+}
+
+.main-wrapper .card h4 {
+  text-align: center;
+}
+
+.main-wrapper img {
+  position: relative;
+}
+
+.main-wrapper img:hover {
+  -webkit-animation: bounce 1s 2;
+          animation: bounce 1s 2;
+}
+
+@-webkit-keyframes bounce {
+  0% {
+    bottom: 0px;
+  }
+  50% {
+    bottom: 20px;
+  }
+  100% {
+    bottom: 0px;
+  }
+}
+
+@keyframes bounce {
+  0% {
+    bottom: 0px;
+  }
+  50% {
+    bottom: 20px;
+  }
+  100% {
+    bottom: 0px;
+  }
+}
+
+.card:hover {
+  -webkit-box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+          box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.container {
+  padding: 2px 16px;
+}
+
 main {
+  background-color: white;
   padding: 0 2%;
   min-height: 10rem;
 }
 
+main h1 {
+  margin: 0;
+  padding-top: 5rem;
+}
+
 /*----------- FOOTER --------------*/
-footer {
+.footer-wrapper {
   background-color: #ddd;
+}
+
+footer {
   padding: .5rem 2%;
   text-align: center;
 }
@@ -438,6 +535,10 @@ footer {
 @media only screen and (min-width: 35rem) {
   /*----------- BODY --------------*/
   /*----------- HEADER --------------*/
+  .header-wrapper {
+    background-image: url(../images/header-medium.jpg);
+    height: px;
+  }
   /*----------- NAVIGATION --------------*/
   nav ul {
     margin-left: 2%;
@@ -459,13 +560,19 @@ footer {
 }
 
 /* end of media query */
-@media only screen and (min-width: 64rem) {
+@media only screen and (min-width: 60rem) {
   header, nav, main, footer {
     max-width: 64rem;
     margin: auto;
   }
   /*----------- BODY --------------*/
   /*----------- HEADER --------------*/
+  .header-wrapper {
+    background-image: url(../images/header-large.jpg);
+    height: 400px;
+    background-size: cover;
+    background-position: center bottom;
+  }
   /*----------- NAVIGATION --------------*/
   /*----------- MAIN --------------*/
   /*----------- FOOTER --------------*/
