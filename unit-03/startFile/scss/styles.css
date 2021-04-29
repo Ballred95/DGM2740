@@ -356,7 +356,7 @@ html {
 /*----------- BODY --------------*/
 body {
   font-size: 16px;
-  font-family: Verdana, sans-serif;
+  font-family: 'Noto Serif', serif;
 }
 
 /*----------- HEADER --------------*/
@@ -365,7 +365,7 @@ header {
   display: -ms-flexbox;
   display: flex;
   padding: .5rem 2%;
-  background-color: #ddd;
+  background-color: #34b302;
 }
 
 .storename {
@@ -386,12 +386,12 @@ header h1 {
 
 header h2 {
   margin: 0;
-  font-weight: normal;
+  font-weight: lighter;
 }
 
 /*----------- NAVIGATION --------------*/
 nav {
-  background-color: #666;
+  background-color: red;
 }
 
 nav ul {
@@ -407,7 +407,7 @@ nav ul li {
 
 nav ul li a {
   display: block;
-  background-color: #444;
+  background-color: #cc0000;
   color: #eee;
   border-left: 1px solid #777;
   padding: .5rem 0;
@@ -421,12 +421,12 @@ nav ul li:first-child a {
 }
 
 nav ul li a:hover {
-  background-color: #eee;
+  background-color: #ff6666;
   color: #333;
 }
 
 nav ul li.active a {
-  background-color: #000;
+  background-color: #990000;
   color: #fff;
 }
 
@@ -450,6 +450,10 @@ main {
   margin: 1rem 2%;
 }
 
+.fruit-gallery figure figcaption {
+  text-align: center;
+}
+
 .fruit-gallery figure img {
   width: 100%;
   height: auto;
@@ -457,7 +461,7 @@ main {
 
 /*----------- FOOTER --------------*/
 footer {
-  background-color: #ddd;
+  background-color: red;
   padding: .5rem 2%;
   text-align: center;
 }
