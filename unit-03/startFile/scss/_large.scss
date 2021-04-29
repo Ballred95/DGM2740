@@ -16,7 +16,11 @@ header, nav, main, footer {
 
 
 /*----------- MAIN --------------*/
-
+.fruit-gallery {
+        figure {
+            flex-basis: 21%;
+        }
+    }
 
 
 /*----------- FOOTER --------------*/

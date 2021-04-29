@@ -442,13 +442,16 @@ main {
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  padding: 5px;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
 }
 
-.fruit-gallery img {
-  width: 180px;
+.fruit-gallery figure {
+  -ms-flex-preferred-size: 96%;
+      flex-basis: 96%;
+  margin: 1rem 2%;
+}
+
+.fruit-gallery figure img {
+  width: 100%;
   height: auto;
 }
 
@@ -486,6 +489,10 @@ footer {
     padding: .5rem 1rem;
   }
   /*----------- MAIN --------------*/
+  .fruit-gallery figure {
+    -ms-flex-preferred-size: 46%;
+        flex-basis: 46%;
+  }
   /*----------- FOOTER --------------*/
 }
 
@@ -499,6 +506,10 @@ footer {
   /*----------- HEADER --------------*/
   /*----------- NAVIGATION --------------*/
   /*----------- MAIN --------------*/
+  .fruit-gallery figure {
+    -ms-flex-preferred-size: 21%;
+        flex-basis: 21%;
+  }
   /*----------- FOOTER --------------*/
 }
 

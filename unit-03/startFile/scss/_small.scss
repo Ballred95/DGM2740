@@ -64,18 +64,23 @@ nav ul li.active a {
 main {
     padding: 0 2%;
     min-height: 10rem;
+    
 }
 
 .fruit-gallery {
-    
-    
     display: flex;
-     flex-wrap: wrap;
-     padding: 5px;
-     justify-content: space-around;
+    flex-wrap: wrap;
 
-     img{width: 180px; height: auto;}
-    
+    figure {
+        flex-basis: 96%;
+        margin: 1rem 2%;
+
+        img {
+            
+            width: 100%;
+            height: auto;
+        }
+    }
 }
 
 
