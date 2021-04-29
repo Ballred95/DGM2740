@@ -445,8 +445,8 @@ main {
 }
 
 .fruit-gallery figure {
-  -ms-flex-preferred-size: 96%;
-      flex-basis: 96%;
+  -ms-flex-preferred-size: 46%;
+      flex-basis: 46%;
   margin: 1rem 2%;
 }
 
@@ -490,8 +490,8 @@ footer {
   }
   /*----------- MAIN --------------*/
   .fruit-gallery figure {
-    -ms-flex-preferred-size: 46%;
-        flex-basis: 46%;
+    -ms-flex-preferred-size: 29%;
+        flex-basis: 29%;
   }
   /*----------- FOOTER --------------*/
 }
